@@ -22,7 +22,7 @@ for film in cursor:
     print(film)
 print("-------------")
 
-cursor.execute("SELECT film.cim FROM film WHERE ev AND bemutato BETWEEN 1939 And 1945")
+cursor.execute("SELECT film.cim FROM film WHERE ev AND bemutato BETWEEN 1939 AND 1945")
 for film in cursor:
     print(film)
 print("-------------")
